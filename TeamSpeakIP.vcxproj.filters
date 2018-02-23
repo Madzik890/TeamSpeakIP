@@ -13,5 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki nagłówkowe\teamspeak">
+      <UniqueIdentifier>{98aff142-5552-478b-9f50-3f4b1e7414f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\teamlog">
+      <UniqueIdentifier>{0c470485-de1e-444a-94fb-fb8078e77fef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="plugin.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plugin.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plugin_definitions.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ts3_functions.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="include\teamspeak\clientlib_publicdefinitions.h">
+      <Filter>Pliki nagłówkowe\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="include\teamspeak\public_definitions.h">
+      <Filter>Pliki nagłówkowe\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="include\teamspeak\public_errors.h">
+      <Filter>Pliki nagłówkowe\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="include\teamspeak\public_errors_rare.h">
+      <Filter>Pliki nagłówkowe\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="include\teamspeak\public_rare_definitions.h">
+      <Filter>Pliki nagłówkowe\teamspeak</Filter>
+    </ClInclude>
+    <ClInclude Include="include\teamlog\logtypes.h">
+      <Filter>Pliki nagłówkowe\teamlog</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
